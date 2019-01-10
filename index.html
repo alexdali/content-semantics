@@ -4,13 +4,14 @@
   <meta charset="utf-8">
   <title>Fix Naming & Indentation Errors</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <header>
     <h1>Beetroot (<i>Beta vulgaris</i>)</h1>
     <nav>
-      <ol style="list-style-type: none;">
+      <ol>
         <li><a href="#Common-varieties">Common varieties</a></li>
         <li><a href="#Nutritional-information">Nutritional information</a></li>
         <li><a href="#Tags">Tags</a></li>
@@ -23,10 +24,13 @@
       <img src="images/beets.jpg" alt="beets">
       <figcaption>A bundle of organic beets from a local farm food co-op program.</figcaption>
     </figure>
-    <p><data value="55">55</data> to <data value="65">65</data> days are needed from germination to harvest of the root.</p>
-    <p>The usually deep purple roots of <strong>beetroot</strong> are eaten either grilled, boiled, or roasted as a cooked
-    vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either
-    alone or combined with any salad vegetable.</p>
+
+    <p><time>55</time> to <time>65</time> days are needed from germination to harvest of the root.</p>
+    <p>
+      The usually deep purple roots of <strong>beetroot</strong> are eaten either grilled, boiled, or roasted as a cooked
+      vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either
+      alone or combined with any salad vegetable.
+    </p>
     <p>In fact, Jim Halpert once said this about beets, <q cite="https://alexdali.github.io/content-semantics/">Fact, bears eat beets. Bears, beets, <em>Battlestar
     Galactica</em></q>.</p>
     <blockquote cite="https://alexdali.github.io/content-semantics/">
@@ -36,7 +40,7 @@
     </blockquote>
 
     <h2 id="Common-varieties">Common varieties</h2>
-    <ul style="list-style-type: none;">
+    <ul>
       <li>Albino</li>
       <li>Bull’s Blood</li>
       <li>Chioggia</li>
@@ -45,19 +49,32 @@
     </ul>
 
     <h2 id="Nutritional-information">Nutritional information</h2>
-    <ul style="list-style-type: none;">
-      <li>
-        <p>Serving size: <data value="100">100</data> g</p>
-      </li>
-      <li>Energy: <data value="180">180</data> kJ</li>
-      <li>Carbohydrates: <data value="9.96">9.96</data> g</li>
-      <li>Fat: <data value="0.18">0.18</data> g</li>
-      <li>Protein: <data value="1.68">1.68</data> g</li>
-    </ul>
+    <dl>
+      <div>
+        <dt>Serving size</dt>
+        <dd><data value="100">100</data> g</dd>
+      </div>
+      <div>
+        <dt>Energy</dt>
+        <dd><data value="180">180</data> kJ</dd>
+      </div>
+      <div>
+        <dt>Carbohydrates</dt>
+        <dd><data value="9.96">9.96</data> g</dd>
+      </div>
+      <div>
+        <dt>Fat</dt>
+        <dd><data value="0.18">0.18</data> g</dd>
+      </div>
+      <div>
+        <dt>Protein</dt>
+        <dd><data value="1.68">1.68</data> g</dd>
+      </div>
+    </dl>
 
     <aside>
       <h2 id="Tags">Tags</h2>
-      <ul style="list-style-type: none;">
+      <ul>
         <li>Crimson</li>
         <li>Awesome</li>
         <li>Pickle-able</li>
@@ -67,7 +84,7 @@
     </aside>
 
     <footer>
-      <p>Source: <a href="https://www.wikipedia.org/">Wikipedia</a>; Last modified: Aug 30, 2014</p>
+      <p>Source: <a href="https://www.wikipedia.org/">Wikipedia</a>; Last modified: <time datetime="2014-08-30">Aug 30, 2014</time></p>
     </footer>
   </main>
 
